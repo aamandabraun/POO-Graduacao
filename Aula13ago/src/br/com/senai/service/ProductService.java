@@ -10,21 +10,16 @@ public class ProductService {
     private Product produto;
 
     public Product cadastrarProduto(String nomeProduto, double valorProduto, int quantidadeProduto){
-        produto = new Product();
-        produto.nomeProduto = nomeProduto;
-        produto.valor = valorProduto;
-        produto.quantidade = quantidadeProduto;
+        produto = new Product(nomeProduto);
 
-        System.out.println("Nome do produto: " + produto.nomeProduto);
-        System.out.println("Valor do produto: " + produto.valor);
-        System.out.println("Quantidade do produto: " + produto.quantidade);
+        produto.setValor(valorProduto);
+        produto.setQuantidade(quantidadeProduto);
 
         return produto;
     }
 
-    public List<Product> listarProduto(){
-        List<Product> produtos = new ArrayList<>();
-        return produtos;
+    public List<Product> listarProduto(List<Product> products){
+        return products;
     }
 
     public void buscarProduto(){

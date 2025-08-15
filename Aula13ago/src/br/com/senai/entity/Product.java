@@ -1,27 +1,41 @@
 package br.com.senai.entity;
 
+import br.com.senai.view.ProductView;
+
 public class Product {
 
     //ATRIBUTOS
-    public String nomeProduto;
-    public Integer quantidade;
-    public Double valor;
+    private String nomeProduto;
+    private Integer quantidade;
+    private Double valor;
 
-    //METODOS
-    public String getNomeProduto (){
-        return this.nomeProduto;
+    //CONSTRUTORES
+    public Product(String nomeProduto){
+        this.nomeProduto = nomeProduto;
     }
 
-    public void setNomeProduto(String nome){
-        this.nomeProduto = nome;
+    //GET e SET encapsulamento de atributos
+    public String getNomeProduto() {
+        return nomeProduto;
     }
 
-    public Integer getQuantidade(){
-        return this.quantidade;
+    public void setNomeProduto(String nomeProduto) {
+        this.nomeProduto = nomeProduto;
     }
 
-    public void setQuantidade(Integer qtd){
-        //this.nomeProduto = nome;
+    public Integer getQuantidade() {
+        return quantidade;
     }
 
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
 }

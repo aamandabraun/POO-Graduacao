@@ -5,7 +5,7 @@ public class Estoque {
     private Product product;
 
     public void setProduct(){
-        product = new Product();
-        product.nomeProduto = "Feijão";
+        //product = new Product();
+        //product.nomeProduto = "Feijão";
     }
 }
