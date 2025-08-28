@@ -47,6 +47,6 @@ public class Produto {
         System.out.println("Produto: " + nomeProduto);
         System.out.println("Preço: R$" + precoProduto);
         System.out.println("Estoque: " + quantidadeEstoque + " unidades");
-        System.out.println("-----------------------");
+        System.out.println(" ");
     }
 }
