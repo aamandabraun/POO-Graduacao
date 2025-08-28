@@ -1,4 +1,4 @@
-package br.com.senai.entity;
+package br.com.senai;
 
 import java.util.ArrayList;
 import java.util.List;
