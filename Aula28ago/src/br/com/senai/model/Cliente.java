@@ -10,7 +10,7 @@ public class Cliente {
     public Cliente() {
     }
 
-    public Cliente(int id, String nome, String email, boolean vip) {
+    public (int id, String nome, String email, boolean vip true) {
         this.id = id;
         this.nome = nome;
         this.email = email;
@@ -56,5 +56,7 @@ public class Cliente {
         System.out.println(" ");
 
     }
+
+
 
 }

@@ -39,13 +39,6 @@ public class Produto {
     }
 
 
-    public int getQuantidade(){
-        return quantidade;
-    }
-    public void setQuantidade (int quantidade){
-        this.quantidade = quantidade;
-    }
-
     public void exibirInformacoes() {
         System.out.println("Produto: " + codigo);
         System.out.println("Nome do produto: " + nomeProduto);
